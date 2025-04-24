@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smartwatch product</title>
+  
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      padding: 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      max-width: 1000px;
+    }
+
+    .gallery img {
+      width: 150px ;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+      height:170px;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    h1 {
+      text-align: center;
+      margin:0 30px;
+      color: gold;
+    }
+    header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 0 10px;
+  height: 200px;
+}
+  nav {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
+  .back-arrow {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-size: 50px;
+  transition: background 0.3s;
+  -webkit-tap-highlight-color:#333;
+}
+
+.back-arrow:hover{
+  background: transparent;
+  color: #fff;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+        <nav>
+    <strong>  <a href="product.html" class="back-arrow ">&#8592</a></strong>
+    </nav>
+    <h1>Smartwatch Collection</h1>
+  </header>
+  <div class="gallery">
+    <img src="A1.jpg" alt="Image 1">
+    <img src="A2.jpg" alt="Image 1">
+    <img src="A3.jpg" alt="Image 1">
+    <img src="A4.jpg" alt="Image 1">
+    <img src="A5.jpg" alt="Image 1">
+    <img src="A6.jpg" alt="Image 1">
+    <img src="A7.jpg" alt="Image 1">
+    <img src="A8.jpg" alt="Image 1">
+    <img src="A9.jpg" alt="Image 1">
+    <img src="A10.jpg" alt="Image 1">
+    <img src="A11.jpg" alt="Image 1">
+    <img src="A12.jpg" alt="Image 1">
+  </div>
+  <footer>
+    <p>&copy; 2024 Luxury Timepieces. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
